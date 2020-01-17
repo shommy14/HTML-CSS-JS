@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+	<ul>
+		<li><a href="index.html">Naslovna</a><span>|</span></li>
+		<li><a href="glasaj.html">Glasanje</a><span>|</span></li>
+		<li><a href="igraci.html">Najbolji igraci</a></li>
+	</ul>
+</nav>
+
+<div class="main">	
+		
+				<form id="glasanje">
+					Ime i prezime:
+					<input type="text" placeholder="Ime i prezime" class="text" id="a">
+					<br><br>
+					Godiste:
+					<input type="text" placeholder="Godiste" class="text" id="b">
+					<br><br>
+					Velicina:<br>
+					<input type="radio" name="pol" value="muski" id="c">Musko<br>
+					<input type="radio" name="pol" value="zenski" id="c">Zensko<br>
+					<br><br>
+				Glasam za:
+				<select>
+					<option> Lebron James </option>
+					<option> Kobi Brajant </option>
+					<option> Russel Westbrook </option>
+					<option> James Harden </option>
+				</select>
+				<br><Br>
+				Vase misljenje o MVP-u:<br>
+				<textarea rows="7" cols="40"></textarea>
+				<br><br>
+				<button type="button" id="button1" onclick="ispis()">GLASAM
+	</div>
+		
+			
+		<script src="glasaj.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+html {
+	
+	background-image: url('img/body.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+body {
+	margin: 5% 20% 10% 20%;
+}
+
+nav {
+	width: 100%;
+	height: 30px;
+}
+
+nav li {
+	float: left;
+	list-style: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+}
+
+span {
+	color: white;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.main {
+	
+	width: 100%;
+	color: gray;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color: white;
+	padding: 1em;
+}
+
+.main img {
+	width: 100%;
+	height: 30%;
+}
+
+
+.galerija {
+	width: 100%;
+	padding: 1em;
+}
+
+.galerija img {
+	width: 300px;
+	height: 300px;
+	border: 2px solid white;
+}
+
+.red {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.slika {
+	display: inline;
+}
+
+.mapa{
+	width:350px;
+	height:350px;
+	left:29%;
+	margin-bottom:2%;
+	border:1px solid black;
+}
+
+
+
+#myImage{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+@media screen and (max-width: 580px) {
+  	
+	  	nav ul li a {
+		font-size: 13px;
+		font-weight: bold;
+	}
+}
+
+
+@media screen and (max-width: 1040px) {
+  	
+		.galerija img {
+		width: 200px;
+		height: 200px;
+		border: 2px solid white;
+	}
+}
+
+@media screen and (max-width: 710px) {
+  	
+		.galerija img {
+		width: 150px;
+		height: 150px;
+		border: 2px solid white;
+	}
+}
+
+@media screen and (max-width: 580px) {
+  	
+		.galerija img {
+		width: 250px;
+		height: 250px;
+		border: 2px solid white;
+	}
+}
